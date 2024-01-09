@@ -77,7 +77,7 @@ public abstract class RunJPascDemoAbstract extends RunPascAppAbstract implements
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_09_PRINT_FLOW, true);
 
-      config.setFlagPrint(ITechConfig.MASTER_FLAG_08_OPEN_ALL_BUT_FALSE, true);
+      config.setFlagMaster(ITechConfig.MASTER_FLAG_08_OPEN_ALL_BUT_FALSE, true);
       //negatives
       config.setFlagTagNeg(ITechTags.FLAG_07_PRINT_EVENT, true);
    }
