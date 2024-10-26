@@ -17,7 +17,7 @@ import pasa.cbentley.core.src4.ctx.UCtx;
 import pasa.cbentley.core.src4.logging.BaseDLogger;
 import pasa.cbentley.core.src4.logging.Dctx;
 import pasa.cbentley.core.src4.logging.IDLogConfig;
-import pasa.cbentley.core.src4.logging.ITechConfig;
+import pasa.cbentley.core.src4.logging.ITechDLogConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
 import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.jpasc.appswing.ctx.PascAppCtx;
@@ -109,7 +109,7 @@ public class RunDemoAccountWalletKey extends RunJPascDemoAbstract implements IEx
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_09_PRINT_FLOW, true);
 
-      config.setFlagMaster(ITechConfig.MASTER_FLAG_08_OPEN_ALL_BUT_FALSE, true);
+      config.setFlagMaster(ITechDLogConfig.MASTER_FLAG_08_OPEN_ALL_BUT_FALSE, true);
       //negatives
       config.setFlagTagNeg(ITechTags.FLAG_07_PRINT_EVENT, true);
    }
